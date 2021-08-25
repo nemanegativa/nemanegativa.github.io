@@ -1,0 +1,26 @@
+body{
+    padding: 50px;
+    font-family: arial, sans-serif;
+}
+.main_blok{
+    border:2px solid red; 
+    max-width: 800px;
+    height: 800px;
+    margin: 0px auto;
+}
+.main_blok div{
+    line-height: 50px;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: center;
+}
+.blok_1{
+    background-color: aquamarine;
+}
+.blok_2{
+    background-color:crimson;
+    position: 
+}
+.blok_3{
+    background-color:fuchsia;
+}
