@@ -2,11 +2,13 @@ body{
     font-family: Arial, sans-serif;
 }
 
-nav{
+
+.nu{
+    position: fixed;
     width: 100%;
     height: 60px;
     background: #344051;
-    position: fixed;
+   
 }
 .logo{
     color: #fff;
@@ -161,7 +163,7 @@ nav{
     padding: 5px 600px 50px 93px;
 }
 
-.guf{
+.guf {
     border: 1px solid #fff;
     border-radius: 100%;
     width: 250px;
@@ -177,6 +179,17 @@ nav{
     color: #6f707e;
    
 }
+.ya input:hover{
+    background-color:floralwhite;
+}
+.ya input:focus{
+    outline: none;
+}
+
+.ya input:active{
+   transform: scale(1.1);
+    box-shadow: 4px 3px 2px 3px #d17700;
+}
 .ya input{
      height: 40px;
     text-align: center;
@@ -188,22 +201,40 @@ nav{
     padding: 10px 18px 10px 38px;
     margin: 30px 900px 0px 840px;
     background: url(../img/%D0%B8%D0%BA%D0%BE%D0%BD%D0%BA%D0%B0.png) 16px no-repeat;
+    transition: all 0.5;
+    transform:scale(1);
+
 }
 .zlo{
     width: 100%;
     height: 60%;
     background: url(../img/%D0%BA%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0%20%D1%84%D0%BE%D0%BD%D0%B0.png) center/cover no-repeat
 }
-.can h2{
+.can h2 {
      text-align: center;
     font-size: 30px;
     font-weight: bold;
-    margin: 90px 100px 0px 100px;
+    margin: 50px 100px 0px 100px;
     padding: 90px 100px 0px 100px;
     color: #263244;
+   
 }
+
 .can img{
      margin: 20px 890px 0px 890px;
+}
+.hhp{
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+   
+    
+}
+.hhp:hover{
+    font-size: 20px
+        
 }
 .hhp h3{
     float: left;
@@ -221,6 +252,16 @@ nav{
  margin: -20px 1250px 0px 300px;
     text-align: center
 }
+.raz{
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.raz:hover{
+    font-size: 20px;
+}
 .raz h3{
     float:left;
     font-size: 20px;
@@ -236,6 +277,16 @@ nav{
  margin: -60px 850px 0px 700px;
     text-align: center;
 }
+.lol{
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.lol:hover{
+    font-size: 20px;
+}
 .lol h3{
     float:left;
     font-size: 20px;
@@ -250,6 +301,17 @@ nav{
     float:left;
  margin: -70px 550px 0px 1050px;
     text-align: center;
+}
+.met{
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+}
+.met:hover{
+    
+    font-size: 20px;
 }
 .met h3{
     float:left;
@@ -282,8 +344,7 @@ nav{
      margin: 60px 100px 0px 100px;
 }
 .keic img{
-     margin: 50px 0px 0px 350px;
-    
+     margin: 50px 0px 0px 350px; 
 }
 .client{
     float: left;
@@ -308,6 +369,16 @@ nav{
     margin: 0px 0px 0px 355px;
     color: #384354;
 }
+.client input:hover {
+ -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+
+}
+.client input:active{
+transform: scale(0.48);
+}   
+
 .client input{
      height: 40px;
     text-align: left;
@@ -319,7 +390,9 @@ nav{
     padding: 10px 18px 10px 20px;
     margin: 30px 900px 0px 350px;
     background-color: #63b5ae;
+   
 }
+
 .il h5{
     float: left;
     margin: 0px 0px 0px -800px;
@@ -365,7 +438,8 @@ nav{
 .sta{
     width: 100%;
     height: 60%;
-    background:url(../img/%D1%84%D0%BE%D0%BD.png) 0px 70px no-repeat;
+ background:url(../img/%D1%84%D0%BE%D0%BD.png) 0px 70px no-repeat;
+    background-attachment: fixed;
 }
 .statist h2{
    text-align: center;
@@ -383,7 +457,7 @@ nav{
     font-size: 40px;
     color: #323e4f;
     font-weight: bold;
-    margin: 150px 0px 0px 600px;
+    margin: 150px 0px 0px 500px;
 }
 .smail img{
      float: left;
@@ -391,7 +465,7 @@ nav{
 }
 .smail p{
     float: left;
- margin: 20px 850px 0px 540px;
+ margin: 20px 850px 0px 430px;
     font-size: 20px;
 }
 .rep h3{
@@ -399,15 +473,15 @@ nav{
     font-size: 40px;
     color: #323e4f;
     font-weight: bold;
-    margin: -80px 0px 0px 850px;
+    margin: -80px 0px 0px 750px;
 }
 .rep img{
     float: left;
- margin: -145px 0px 0px 870px;
+ margin: -145px 0px 0px 770px;
 }
 .rep p{
     float: left;
- margin: -20px 850px 0px 840px;
+ margin: -20px 850px 0px 740px;
     font-size: 20px;
 }
 .log h3{
@@ -415,15 +489,15 @@ nav{
     font-size: 40px;
     color: #323e4f;
     font-weight: bold;
-    margin: -80px 0px 0px 1100px;
+    margin: -80px 0px 0px 1050px;
 }
 .log img{
      float: left;
- margin: -145px 0px 0px 1109px;
+ margin: -145px 0px 0px 1060px;
 }
 .log p{
     float: left;
- margin: -20px 0px 0px 1050px;
+ margin: -20px 0px 0px 990px;
     font-size: 20px;
 }
 .huc h3{
@@ -539,6 +613,13 @@ nav{
     padding: 170px 100px 0px 100px;
     color: #ffffff;
 }
+.imya input:focus{
+    transform: scale(1.2);
+}
+.imya input:hover{
+    box-shadow: 0 0 14px 0 #d17700 inset, 0 0 12px 3px #d17700;
+  color:#d17700;
+}
 .imya input{
     float: left;
     height: 40px;
@@ -550,6 +631,13 @@ nav{
     background-color: #d3d7dd;
     margin: 50px -66px 0px 520px;
     width: 400px;
+}
+.em input:focus{
+    transform: scale(1.2);
+}
+.em input:hover{
+    box-shadow: 0 0 14px 0 #d17700 inset, 0 0 12px 3px #d17700;
+  color:#d17700;
 }
 .em input{
      float: left;
@@ -563,6 +651,13 @@ nav{
     margin: 50px -66px 0px 100px;
     width: 400px;
 }
+.big textarea:focus{
+    transform: scale(1.2);
+}
+.big textarea:hover{
+    box-shadow: 0 0 14px 0 #d17700 inset, 0 0 12px 3px #d17700;
+  color:#d17700;
+}
 .big textarea{
     height: 120px;
     border: 2px solid #d3d7dd;
@@ -573,6 +668,14 @@ nav{
     background-color: #d3d7dd;
     margin: 10px 6px 0px 520px;
     width: 831px;
+}
+.gut input:hover{
+ transform: scale(0.9);
+    background-color: darken($button-bg, 5%);
+    box-shadow: 0 2px 25px #d17700;
+}
+.gut input:active{
+  transform: scale(1.1);
 }
 .gut input{
     height: 40px;
